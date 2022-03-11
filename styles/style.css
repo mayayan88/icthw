@@ -1,0 +1,23 @@
+@import"components/navbar.css";
+
+body{
+	background-color: #f5b971 ;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 3px;	
+}
+
+p{
+  line-height: 1;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #810000;
+  text-decoration: underline overline;
+  margin :16px 0px;
+}
+
+ul {
+  list-style-type: none;
+ }

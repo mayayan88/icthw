@@ -1,0 +1,33 @@
+.promotion-img{
+ width:100%;
+}
+
+#btn-col{
+	position: static;
+}
+
+#btn-container{
+	/*position: relative;
+	justify-content: space-around;
+	width:100%;
+	top:unset;*/
+	flex-direction: column;	
+	position: absolute;
+	top: 15%;
+	right:2%;
+	/*z-index:-100;*/		
+}
+
+@media(min-width: 576px) {
+	#btn-container{
+		position: static;
+		flex-direction: row;
+		justify-content: space-around;
+		width:100%;
+	}	
+}
+
+/*#btn-container a {
+	width:30%;
+}*/
+
